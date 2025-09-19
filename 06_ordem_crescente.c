@@ -28,7 +28,7 @@ int main(void) {
     }
 
     // organiza primeira metade em ordem crescente
-    // e sgunda metade em ordem decrescente
+    // e segunda metade em ordem decrescente
     int f = 0;
     while (f != 4) {
         f = 0;
@@ -45,14 +45,14 @@ int main(void) {
                 vet[i + 6] = tmp;
                 continue;
             }
-            
             f++;
         }
     }
 
-    printf("----------------------------------------------\n");
+    // saida de dados
+    printf("----------------------------------------------\n| ");
     for (int i = 0; i < 11; ++i) {
-        printf("| %d ", vet[i]);
+        printf("%d | ", vet[i]);
     }
     printf("\n----------------------------------------------\n");
     
